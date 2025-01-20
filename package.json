@@ -1,0 +1,27 @@
+{
+  "name": "blog_react",
+  "version": "1.0.0",
+  "description": "A Course about making a blog using Nodejs, Express, React, Tailwindcss and MongoDB with ES6+",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiliampsa11/Blog_React.git"
+  },
+  "keywords": [],
+  "author": "Uíliam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiliampsa11/Blog_React/issues"
+  },
+  "homepage": "https://github.com/wiliampsa11/Blog_React#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  }
+}
