@@ -4,7 +4,9 @@
   "description": "A Course about making a blog using Nodejs, Express, React, Tailwindcss and MongoDB with ES6+",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",

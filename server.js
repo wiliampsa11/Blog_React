@@ -3,15 +3,6 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 const { MongoClient } = require("mongodb");
 
-const articlesInfo = {
-  "learn-react": {
-    comments: [],
-  },
-  "learn-node": {
-    comments: [],
-  },
-  "my-thoughts-on-learning-react": { comments: [] },
-};
 
 // Initialize middleware
 // We use to have to install body parser but now it is a built in middleware
